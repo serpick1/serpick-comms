@@ -396,6 +396,51 @@
     text-align: center;
   }
 
+  /* ---------- TESTIMONIALS ---------- */
+  .testimonial {
+    position: relative;
+    max-width: 820px;
+    background: #fff;
+    border: 1px solid var(--line-dark);
+    border-radius: 8px;
+    padding: 48px 56px 40px;
+  }
+  .testimonial-mark {
+    font-family: var(--display);
+    font-size: 72px;
+    line-height: 1;
+    color: var(--amber);
+    margin-bottom: 8px;
+  }
+  .testimonial-quote {
+    font-family: var(--display);
+    font-weight: 500;
+    font-size: clamp(19px, 2.4vw, 24px);
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+  }
+  .testimonial-attribution {
+    margin-top: 28px;
+    padding-top: 24px;
+    border-top: 1px solid var(--line-dark);
+  }
+  .testimonial-attribution .name {
+    display: block;
+    font-family: var(--display);
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .testimonial-attribution .role {
+    display: block;
+    margin-top: 4px;
+    font-family: var(--mono);
+    font-size: 12.5px;
+    letter-spacing: 0.02em;
+    color: #8a8578;
+    max-width: 56ch;
+  }
+
   /* ---------- CONTACT ---------- */
   .contact {
     background: var(--paper-dim);
@@ -658,6 +703,25 @@
       </div></div>
     </div>
 
+  </div>
+</section>
+
+<section id="testimonials">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="section-tag">Testimonials</div>
+        <h2>What people are saying.</h2>
+      </div>
+    </div>
+    <div class="testimonial reveal">
+      <div class="testimonial-mark">&ldquo;</div>
+      <p class="testimonial-quote">Evan brings both exceptional positive can-do energy and top-notch professional communications skills to every project he takes on. He is a joy to work with. Building on his years as a journalist, Evan delivers great content again and again and again in a timely way that allows the teams he is a part of to get their message in front of their audience at the time they need them to hear it. 10/10 would work with Evan again!</p>
+      <div class="testimonial-attribution">
+        <span class="name">Sam Novey</span>
+        <span class="role">Chief Strategist, the University of Maryland's Center for Democracy and Civic Engagement; Founder, Baltimore Votes Coalition</span>
+      </div>
+    </div>
   </div>
 </section>
 
